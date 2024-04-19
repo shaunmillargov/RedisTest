@@ -1,4 +1,4 @@
-### Reddis Client Prototype Application 
+### Redis Client Prototype Application 
 
 Provides the necessary starting application for storing document transfer state in a Redis cache (External).
 
@@ -14,9 +14,10 @@ Operation List
 | HTTP Verb  | Path 	| Comment |
 | ---------- | ----------- | ---------- |
 | GET  	     | /jobs       | Report all jobs |
-| GET 	     | /job/{id}   | Get one job status |
-| POST       | /job        | Add or Update a JOB based on id |
-| DEL        | /job/{id}   | Remove a JOB |
+| GET 	     | /job/{id}   | Get a jobs status |
+| POST       | /job        | Add a job status |
+| PUT        | /job/{id}   | Update a job status |
+| DEL        | /job/{id}   | Remove a Job status |
 
 
 
